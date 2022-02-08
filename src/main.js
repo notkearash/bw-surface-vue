@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import { registerScrollSpy } from "vue3-scroll-spy";
+import App from "./App.vue";
+import "./assets/global.css";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+registerScrollSpy(app)
+app.mount("#app");

@@ -1,19 +1,12 @@
-# bw-surface
+# Black & White Surface Pro X mock landing page
+---
+For my very first experience of working with VueJS (version 3), I decided to mock a landing page for one of Surface products called "Surface Pro X". Here is a screenshot of it:
 
-## Project setup
-```
-npm install
-```
+![Image](./screenshot.png "Screenshot")
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Notes
++ Dirty and quick project (I've wrote it in 2 days)
++ Probably turn it into TypeScript (I don't think so)
++ But still reusable
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Licensed by GPLv3
